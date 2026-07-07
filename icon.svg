@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <clipPath id="card-clip">
+      <rect x="8" y="8" width="112" height="112" rx="24" />
+    </clipPath>
+  </defs>
+  
+  <rect x="8" y="12" width="112" height="112" rx="24" fill="#000000" opacity="0.1" />
+  
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#ffffff" />
+  
+  <g clip-path="url(#card-clip)">
+    <rect x="8" y="8" width="20" height="112" fill="#4CAF50" />
+  </g>
+  
+  <text x="68" y="78" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="#4CAF50" text-anchor="middle">100</text>
+  
+  <circle cx="68" cy="62" r="32" fill="none" stroke="#333333" stroke-width="6"/>
+  <line x1="90" y1="84" x2="106" y2="100" stroke="#333333" stroke-width="8" stroke-linecap="round"/>
+</svg>
